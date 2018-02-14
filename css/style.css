@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #111111;
+  color: #dadada;
+  font-family: 'Raleway', sans-serif;
+}
+
+.wrapper {
+  width: 675px;
+  height: 420px;
+  position: relative;
+  top: 40px;
+  margin: auto;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.col1 {
+  position: relative;
+  width: 270px;
+  height: 420px;
+  float: left;
+  padding: 42px 0 0 42px;
+}
+
+.circle {
+  width: 17px;
+  height: 17px;
+  border: 3px solid #111111;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.bla {
+  width: 5px;
+  position: relative;
+  height: 5px;
+  top: 35%;
+  left: 10px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.current {
+  background-color: #111111;
+}
+
+.col2 {
+  width: 405px;
+  height: 420px;
+  background: #111111;
+  float: left;
+}
+
+.bicycle {
+  position: absolute;
+  top: 180px;
+  left: 100px;
+  max-width: 340px;
+  max-height: auto;
+}
+
+.bicycle img {
+  width: 100%;
+  height: auto;
+}
+
+.text-s {
+  position: absolute;
+  top: -530px;
+  right: -140px;
+}
+
+.text-s p {
+  font-size: 470px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  color: #333333;
+}
+
+.menu {
+  position: absolute;
+  top: 37px;
+  right: 42px;
+  width: 30px;
+  height: 20px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.menu:hover {
+  transition: 0.8s;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.bor {
+  position: relative;
+  top: 4px;
+  left: 0;
+  width: 30px;
+  height: 4px;
+  margin-bottom: 4px;
+  background: #111;
+}
+
+.bor:nth-child(3) {
+  background: #333;
+}
+
+.text-wrap {
+  width: 50%;
+  font-size: 12px;
+  text-align: right;
+  float: right;
+  right: 42px;
+  position: relative;
+  z-index: 1;
+  top: 70px;
+}
+
+.text-title h4 {
+  position: relative;
+  font-size: 18px;
+  top: 7px;
+}
